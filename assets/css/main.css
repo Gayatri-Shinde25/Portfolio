@@ -4107,5 +4107,22 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
+			.captions {
+				margin-top: 10px;
+			}
+			
+			.captions a {
+				color: #0077b5; /* LinkedIn blue */
+				text-decoration: none;
+			}
+			
+			.captions a.same-font {
+				font-family: inherit; /* Use the same font as the website */
+			}
+			
+			.captions a:hover {
+				text-decoration: underline;
+			}
+					
 
 	}
